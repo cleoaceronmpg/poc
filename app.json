@@ -1,0 +1,17 @@
+{
+  "name": "basern",
+  "displayName": "basern",
+  "expo": {
+    "android": {
+      "permissions": ["WRITE_EXTERNAL_STORAGE"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ]
+  }
+}
